@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7BB295A82876271B00A9703A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BB295A72876271B00A9703A /* main.cpp */; };
+		7BB295B02876272C00A9703A /* cardCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BB295AE2876272C00A9703A /* cardCheck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7BB295A42876271B00A9703A /* credit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = credit; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB295A72876271B00A9703A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7BB295AE2876272C00A9703A /* cardCheck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cardCheck.cpp; sourceTree = "<group>"; };
+		7BB295AF2876272C00A9703A /* cardCheck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cardCheck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7BB295A72876271B00A9703A /* main.cpp */,
+				7BB295AE2876272C00A9703A /* cardCheck.cpp */,
+				7BB295AF2876272C00A9703A /* cardCheck.hpp */,
 			);
 			path = credit;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB295B02876272C00A9703A /* cardCheck.cpp in Sources */,
 				7BB295A82876271B00A9703A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
